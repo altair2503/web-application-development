@@ -24,13 +24,13 @@ docker build -t hw1-web-app .
 Map host port `8080` to the container (the app listens on `8080`):
 
 ```bash
-docker run --rm -p 8080:8080 hw1-web-app
+docker run -p 8080:8080 hw1-web-app
 ```
 
 The image sets `DOCKER_ENV=Web App Dev`. Override it at runtime:
 
 ```bash
-docker run --rm -p 8080:8080 -e DOCKER_ENV="My value" hw1-web-app
+docker run -p 8080:8080 -e DOCKER_ENV="My value" hw1-web-app
 ```
 
 ### Verify
