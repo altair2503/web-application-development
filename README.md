@@ -44,3 +44,7 @@ Expected response includes the value of `DOCKER_ENV`.
 ## Homework 2 — Docker Compose + PostgreSQL
 
 Multi-container quotes API in `hw2/`. See [hw2/README.md](hw2/README.md) for setup (`cp .env.example .env`, then `docker compose up --build`).
+
+## Midterm — City Insights API
+
+Full CRUD REST API for places in a city in `midterm/`. See [midterm/README.md](midterm/README.md) and [midterm/API.md](midterm/API.md).

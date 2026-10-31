@@ -1,0 +1,8 @@
+.git
+.gitignore
+README.md
+.idea
+.vscode
+**/*_test.go
+.env
+.env.*
